@@ -3,19 +3,18 @@ Dost-GPT is an intelligent chatbot extension designed to simplify your day-to-da
 
 ## Steps to Install and Run the Extension
 
-### 1. Clone the Repository
+1. **Clone the repository**  
+   Clone the project repository to your local machine:  
+   ```bash
+   git clone <repository-url>
+2. **Install dependencies**  
+   ```bash
+   cd DostGpt_Chrome_Extension
+   npm install
+3. **Build the Chrome Extension**  
+   ```bash
+   npm run Build
+4. **Load the dist folder in load unpacked**
 
-First, clone the repository to your local machine:
 
-```bash
-git clone <repo-link>
-
-
-### 2. Install Dependencies
-
-Navigate to the project directory and install the necessary Node.js modules:
-
-```bash
-cd DostGpt_Chrome_Extension
-npm install
 
