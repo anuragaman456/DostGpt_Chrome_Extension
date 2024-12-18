@@ -5,8 +5,6 @@ function App() {
   const [query, setQuery] = useState('');
   const [response, setResponse] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-
-  // Use the API URL and key from the environment variables
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${process.env.REACT_APP_API_KEY}`;
 
   const handleSearch = async () => {
