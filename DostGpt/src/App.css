@@ -1,20 +1,16 @@
 .heading {
-  color: transparent; /* Hide the text */
+  color: transparent; 
   margin-top: 40px; 
   padding-right: 400px;
   text-align: center;
-  font-size: 4em; /* Adjust the font size as needed */
-  font-family: 'Arial', sans-serif; /* Specify a font family */
-  letter-spacing: 2px; /* Add letter spacing for better readability */
+  font-size: 4em; 
+  font-family: 'Arial', sans-serif; 
+  letter-spacing: 2px; 
 }
 #searchButton{
   width: 100px;
  
 }
-
-
-
-
 .loading {
   font-size: 1.5em;
   color: #007bff;
@@ -29,13 +25,9 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: 'Courier New', Courier, monospace;
-  white-space: pre-wrap; /* Ensures JSON formatting stays intact */
+  white-space: pre-wrap; 
   color: #333;
 }
-
-
-
-
 
 .boxbut{
        display: flex;
@@ -43,21 +35,18 @@
        align-items: center;
        flex-direction: column;
        justify-content: space-between;
-       /* background-color: #000; */
-      
-
 }
 
 .heading::after {
-  content: 'DostGpt'; /* Content of the pseudo-element */
-  color: #fa00e9; /* Color of the text */
+  content: 'DostGpt';
+  color: #fa00e9;
   position: absolute; 
   top: 4px; 
   padding-left: 65px;
   padding-top: 80px;
   margin-bottom: 100px;
-  text-shadow: 1px 1px 1px #000, 2px 2px 1px #000, 3px 3px 1px #000, 4px 4px 1px #000, 5px 5px 1px #000; /* Create the dotted effect */
-  opacity: 1; /* Adjust opacity to control visibility of the dots */
+  text-shadow: 1px 1px 1px #000, 2px 2px 1px #000, 3px 3px 1px #000, 4px 4px 1px #000, 5px 5px 1px #000; 
+  opacity: 1;
 }
 
 img {
@@ -89,7 +78,7 @@ input[type="text"] {
 }
 
 button {
-  background-color: #ff10efa4; /* Neon pink color */
+  background-color: #ff10efa4;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
   font-weight: bold;
@@ -100,35 +89,32 @@ button {
 }
 
 button:hover {
-  background-color: #df9eda; /* Lighter shade of green on hover */
+  background-color: #df9eda;
 }
 
 
 #output {
   margin-top: 50px;
   padding: 20px;
-  background-color: #8a2be2; /* Pink Violet background */
-  color: black; /* Black text color */
-  font-weight: bold; /* Bold text */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #8a2be2;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
   text-align: left;
-  width: 100%; /* Make sure it takes full width */
+  width: 100%;
   box-sizing: border-box;
 }
 
 .responseText {
-  font-size: 1.2em; /* Increase the font size */
+  font-size: 1.2em;
 }
-
-/* Styles for bold and black text (for content between asterisks) */
 .bold-black {
-  color: black; /* Black text color */
-  font-weight: bold; /* Make the text bold */
+  color: black; 
+  font-weight: bold;
 }
 
-/* Styles for bold, black, and larger text (for content between double quotes) */
 .large-text {
-  color: black; /* Black text color */
-  font-weight: bold; /* Make the text bold */
-  font-size: 1em; /* Increased font size */
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
 }
