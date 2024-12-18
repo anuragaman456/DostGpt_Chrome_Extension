@@ -8,4 +8,4 @@ Dost-GPT is an intelligent chatbot extension designed to simplify your day-to-da
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/DostGpt_Chrome_Extension.git
+git clone <repo-link>
