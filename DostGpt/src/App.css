@@ -1,0 +1,134 @@
+.heading {
+  color: transparent; /* Hide the text */
+  margin-top: 40px; 
+  padding-right: 400px;
+  text-align: center;
+  font-size: 4em; /* Adjust the font size as needed */
+  font-family: 'Arial', sans-serif; /* Specify a font family */
+  letter-spacing: 2px; /* Add letter spacing for better readability */
+}
+#searchButton{
+  width: 100px;
+ 
+}
+
+
+
+
+.loading {
+  font-size: 1.5em;
+  color: #007bff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap; /* Ensures JSON formatting stays intact */
+  color: #333;
+}
+
+
+
+
+
+.boxbut{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-between;
+       /* background-color: #000; */
+      
+
+}
+
+.heading::after {
+  content: 'DostGpt'; /* Content of the pseudo-element */
+  color: #fa00e9; /* Color of the text */
+  position: absolute; 
+  top: 4px; 
+  padding-left: 65px;
+  padding-top: 80px;
+  margin-bottom: 100px;
+  text-shadow: 1px 1px 1px #000, 2px 2px 1px #000, 3px 3px 1px #000, 4px 4px 1px #000, 5px 5px 1px #000; /* Create the dotted effect */
+  opacity: 1; /* Adjust opacity to control visibility of the dots */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#searchInput{
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff10efa4; /* Neon pink color */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #df9eda; /* Lighter shade of green on hover */
+}
+
+
+#output {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #8a2be2; /* Pink Violet background */
+  color: black; /* Black text color */
+  font-weight: bold; /* Bold text */
+  border-radius: 8px; /* Rounded corners */
+  text-align: left;
+  width: 100%; /* Make sure it takes full width */
+  box-sizing: border-box;
+}
+
+.responseText {
+  font-size: 1.2em; /* Increase the font size */
+}
+
+/* Styles for bold and black text (for content between asterisks) */
+.bold-black {
+  color: black; /* Black text color */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Styles for bold, black, and larger text (for content between double quotes) */
+.large-text {
+  color: black; /* Black text color */
+  font-weight: bold; /* Make the text bold */
+  font-size: 1em; /* Increased font size */
+}
