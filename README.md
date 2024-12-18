@@ -9,3 +9,13 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone <repo-link>
+
+
+### 2. Install Dependencies
+
+Navigate to the project directory and install the necessary Node.js modules:
+
+```bash
+cd DostGpt_Chrome_Extension
+npm install
+
