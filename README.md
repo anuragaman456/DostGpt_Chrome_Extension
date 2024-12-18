@@ -32,7 +32,7 @@ Dost-GPT is an intelligent chatbot extension designed to simplify your day-to-da
    git clone <repository-url>
 2. **Install dependencies**  
    ```bash
-   cd DostGpt_Chrome_Extension
+   cd DostGpt
    npm install
 3. **Build the Chrome Extension**  
    ```bash
